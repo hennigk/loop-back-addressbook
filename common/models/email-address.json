@@ -8,10 +8,12 @@
   },
   "properties": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "emailAddress": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

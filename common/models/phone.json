@@ -8,10 +8,12 @@
   },
   "properties": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phoneType": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phoneNumber": {
       "type": "string",
