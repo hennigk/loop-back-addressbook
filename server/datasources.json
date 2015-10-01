@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "addressBookDatabase": {
+    "name": "addressBookDatabase",
+    "connector": "mysql",
+    "username": "hennigk",
+    "hostname": "0.0.0.0",
+    "database": "addressbooks"
+  }
+}
