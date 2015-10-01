@@ -1,6 +1,8 @@
-1. Entries?filter[order]=id:ASC
+1. Entries?filter[order]=firstName:ASC
 2. Entries?filter[limit]=10&[order]=lastName:ASC
 3. Entries?filter[skip]=10&[order]=lastName:ASC
 4. Entries?filter[where][lastName]=Hennig
 5. Entries?filter[where][firstName][regexp]=ie
+6. AddressBooks?filter[include]=entries
+7. filter[include]=entries&filter[include][entries]=phones&filter[include][entries]=addresses&filter[include][entries]=emailAddresses
 
